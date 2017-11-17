@@ -1,5 +1,8 @@
 {
     "name": "jameshfisher/donut-logic",
     "description": "Shared logic related to donuts",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"Jim\\DonutLogic\\": "src/"}
+    }
 }
